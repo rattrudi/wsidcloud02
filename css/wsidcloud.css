@@ -1,0 +1,104 @@
+/* new_wsidcloud.css */
+
+body {
+     font-family:       Verdana;
+}
+
+.wrapper {
+/*
+     overflow:          auto; */
+     margin:            0 auto;
+     width:             80%;
+}
+
+a {
+      text-decoration:  none;
+}
+
+.mainheader .genlink {
+      font-variant:     small-caps;
+}
+
+.mainheader .subtext {
+      color:            #333333;
+}
+
+.genlink a,
+.genlink a:link,
+.genlink a:visited {
+      color:            #af1212;
+}
+
+.genlink a:hover,
+.genlink a:active,
+.genlink .active a:link {
+      color:            #333333;
+      text-shadow:      none;
+}
+
+.mainheader nav {
+      background-color: #333333;
+      height:           3em;
+      border-radius:    5px;
+}
+
+.mainheader ul {
+      list-style:       none;
+      margin:           0 auto;
+}
+
+.mainheader li {
+      float:            left;
+      display:          inline;
+      font-weight:      600;
+}
+
+.mainheader nav a:link,
+.mainheader nav a:visited {
+      color:            #dedede;
+      display:          inline-block;
+      padding:          0.5em 0.7em;
+      height:           1.5em; /* hoehe einbauen */
+}
+
+.mainheader nav a:hover,
+.mainheader nav a:active,
+.mainheader nav .active a:link,
+.mainheader nav .active a:visited {
+      background-color: #af1212;
+      text-shadow:      none;
+}
+
+.maincontent {
+/*section {       */
+      float:            left;
+      width:            65%;
+}
+
+.topsidebar {
+/*aside {    */
+      float:            right;
+      width:            31%;
+}
+
+.mainfooter {
+/*footer {       */
+      clear:            both;
+}
+
+.footruler {
+      color:            #af1212;
+}
+
+.toparticle,
+.topsidebar {
+      background-color: #fafafa;
+      padding:          0.7em;
+      margin:           1em 0 1em 0;
+}
+
+/*.thecontent {
+      width:            70%;
+      float:            left;
+} */
+
